@@ -17,6 +17,9 @@ fs.readFile('openai_key.json', (err, data) => {
     apiKey = key['OPENAI_API_KEY'];
     }   
 );
+//const openai = new OpenAIAPI({
+//   key: process.env.OPENAI_API_KEY
+
 //openai = new openai('OPENAI_API_KEY'); 
 
 
