@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simulated Popup</title>
+    <script src="script02.js"></script>
+  </head>
+  <body>
+    <h1>Simulated Popup for Testing</h1>
+    <h3>Sample Prompt: Can you come to the meeting tonight?</h3>
+
+    <form id="testForm">
+      <label for="prompt">Prompt:</label>
+      <input type="text" id="prompt" name="prompt" />
+      <button type="button" onclick="sendPositive()">Positive Response</button>
+      <button type="button" onclick="sendNegative()">Negative Response</button>
+    </form>
+
+    <p>Server Response:</p>
+    <div id="response"></div>
+  </body>
+</html>
